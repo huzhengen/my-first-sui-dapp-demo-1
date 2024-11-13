@@ -10,7 +10,8 @@ sui client new-env --alias devnet --rpc https://fullnode.devnet.sui.io:443
 sui client switch --env devnet
 ```
 
-```
+### testnet
+
 [warn] Client/Server api version mismatch, client api version : 1.37.3, server api version : 1.37.2
 UPDATING GIT DEPENDENCY https://gitee.com/MystenLabs/sui.git
 INCLUDING DEPENDENCY Sui
@@ -18,8 +19,6 @@ INCLUDING DEPENDENCY MoveStdlib
 BUILDING counter
 Successfully verified dependencies on-chain against source.
 Transaction Digest: 3i5Rjz5LTKRotyRSpDdm4ALdU4TYoYBvFeuWtv4HcVXD
-```
-### testnet
 
 https://testnet.suivision.xyz/txblock/3i5Rjz5LTKRotyRSpDdm4ALdU4TYoYBvFeuWtv4HcVXD
 
